@@ -52,10 +52,14 @@ nav a:hover {
 
 /* Sobre a Loja section */
 .sobre-loja {
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     background-color: #f1f1f1;
-    margin-bottom: 20px;
+    margin-bottom: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .sobre-loja .coluna {
@@ -64,9 +68,8 @@ nav a:hover {
 }
 
 .sobre-loja .imagem-loja img {
-    padding: 0 20%;
     max-width: 100%;
-    height: auto;
+    height: 300px;
 }
 
 /* Produtos section */
